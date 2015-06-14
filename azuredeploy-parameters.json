@@ -1,35 +1,35 @@
-1 { 
-2     "userImageStorageAccountName": { 
-3         "value" : "userImageStorageAccountName" 
-4     }, 
-5     "userImageStorageContainerName" : { 
-6         "value" : "userImageStorageContainerName" 
-7     }, 
-8     "userImageVhdName" : { 
-9         "value" : "userImageVhdName" 
-10     }, 
-11     "osType" : { 
-12         "value" : "linux" 
-13     }, 
-14     "vmNamePrefix" : { 
-15         "value" : "cloudvm" 
-16     }, 
-17     "adminUsername": { 
-18         "value": "" 
-19     }, 
-20     "adminPassword": { 
-21         "value": "" 
-22     }, 
-23     "numberOfInstances": { 
-24         "value": 2 
-25     }, 
-26     "region": { 
-27         "value": "West US" 
-28     }, 
-29     "virtualNetworkName": { 
-30         "value": "cloudVNET" 
-31     }, 
-32     "vmSize": { 
-33         "value": "Standard_D1" 
-34     } 
-35 } 
+{
+  "userImageStorageAccountName": {
+    "value": "userImageStorageAccountName"
+  },
+  "userImageStorageContainerName": {
+    "value": "userImageStorageContainerName"
+  },
+  "userImageVhdName": {
+    "value": "userImageVhdName"
+  },
+  "osType": {
+    "value": "linux"
+  },
+  "vmNamePrefix": {
+    "value": "cloudvm"
+  },
+  "adminUsername": {
+    "value": ""
+  },
+  "adminPassword": {
+    "value": ""
+  },
+  "numberOfInstances": {
+    "value": 2
+  },
+  "region": {
+    "value": "West US"
+  },
+  "virtualNetworkName": {
+    "value": "cloudVNET"
+  },
+  "vmSize": {
+    "value": "Standard_A2"
+  }
+} 
