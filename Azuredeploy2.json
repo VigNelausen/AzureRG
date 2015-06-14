@@ -48,29 +48,16 @@
                 "description": "Size of the Virtual Machine."
             }
         },
-        "imagePublisher": {
+       "windowsOSVersion": {
             "type": "string",
-            "defaultValue": "Microsoft Windows Server Group",
-            "metadata": {
-                 "description": "Image Publisher"
-            }
-        },
-        "imageOffer": {
-            "type": "string",
-            "defaultValue": "Windows",
-            "metadata": {
-                "description": "Image Offer"
-            }
-        },
-        "imageSKU": {
-            "type": "string",
-             "allowedValues": [
-                "Windows Server 2012 R2 Datacenter",
-                "Windows Server 2012 Datacenter"
+            "defaultValue": "2012-R2-Datacenter",
+            "allowedValues": [
+                "2008-R2-SP1",
+                "2012-Datacenter",
+                "2012-R2-Datacenter"
             ],
-            "defaultValue": "Windows Server 2012 R2 Datacenter",
             "metadata": {
-                "description": "Image SKU"
+                "description": "The Windows version for the VM. This will pick a fully patched image of this given Windows version. Allowed values: 2008-R2-SP1, 2012-Datacenter, 2012-R2-Datacenter."
             }
         }
     },
